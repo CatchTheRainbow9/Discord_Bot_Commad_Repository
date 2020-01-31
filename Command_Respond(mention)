@@ -1,0 +1,7 @@
+
+
+bot.on('message', msg=>{
+  if(msg.content === "your message content"){
+    msg.reply('your message reply');
+    }
+})
